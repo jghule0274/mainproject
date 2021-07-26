@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(224, 191, 141, 0.404),rgba(224, 191, 141, 0.404)),url(/images/food-table.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.form-box{
+    width: 23rem;
+    height: 30rem;
+    position: relative;
+    margin: 6% auto;
+    background:linear-gradient(rgba(35, 43, 56, 0.404),rgba(35, 43, 56, 0.644));
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 4rem;
+}
+.btn-box{
+    width: 220px;
+    margin: 5rem auto;
+    position: relative;
+    box-shadow: 0 0 1.4rem 0.6rem #69ff242a;
+    border-radius: 4rem;
+}
+.toggle-btn{
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-family:sans-serif;
+    color: aqua;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 7rem;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 4rem;
+    transition: .5s;
+}
+.i-g{
+    top: 12rem;
+    position: absolute;
+    width: 19rem;
+    transition: .5s;
+}
+::placeholder{
+    color: rgb(32, 173, 39);
+}
+.i-f{
+    width: 100%;
+    padding: 0.6rem 0;
+    margin: 0.2rem 0;
+    border-left:0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    color: #fff;
+}
+.i-f:focus{
+    outline: none;
+}
+.s-btn{
+    width: 85%;
+    padding: 0.7rem 2rem;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 4rem;
+}
+.c-b{
+    margin: 2rem 0.6rem 2rem 0;
+}
+span{
+    color: rgba(88, 18, 18, 0.692);
+    font-size: 0.8rem;
+    bottom: 4.25rem;
+    position: absolute;
+}
+#login{
+    left: 3.2rem;
+}
+#register{
+    left: 28.2rem;
+}
